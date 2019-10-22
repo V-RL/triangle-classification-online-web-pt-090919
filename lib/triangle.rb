@@ -20,5 +20,7 @@ class Triangle
       :scalene
     end
   end
+  
+  class KindError < StandardError
     
 end
