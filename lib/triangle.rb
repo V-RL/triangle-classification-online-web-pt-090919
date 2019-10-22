@@ -21,6 +21,8 @@ class Triangle
     end
   end
   
-  class KindError < StandardError
+  class KindError < StandardError 
+    
+  end
     
 end
