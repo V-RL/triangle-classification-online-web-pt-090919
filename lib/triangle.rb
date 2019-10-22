@@ -6,11 +6,11 @@ class Triangle
   end
   
   def kind
-    if @side_1 + @side_2 < @side_3 || @side_2 + @side_3 < @side_1 || @side_1 + @side_3 < @side_2 || if @side_1 || @side_2 || @side_3 == 0 
-      begin 
-      raise KindError
-      rescue KindError => error 
-    end
+    #if @side_1 + @side_2 < @side_3 || @side_2 + @side_3 < @side_1 || @side_1 + @side_3 < @side_2 || if @side_1 || @side_2 || @side_3 == 0 
+     # begin 
+      #raise KindError
+      #rescue KindError => error 
+    #end
     if @side_1 && @side_2 == @side_3 
       :equilateral 
       elsif @side_1 && @side_2 !== @side_3
@@ -20,8 +20,8 @@ class Triangle
     end
   end
   
-  class KindError < StandardError 
+  #class KindError < StandardError 
     
-  end
+  #end
     
 end
